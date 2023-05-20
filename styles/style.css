@@ -132,7 +132,13 @@
     color: white;
 }
 
-.col2 {
+.col2,
+.contact-col1,
+.cv-col1,
+.cv-col3,
+.cv-col5,
+.cv-col7,
+.cv-col9 {
     background-color: transparent;
     height: 300px;
     width: 100%;
@@ -141,7 +147,13 @@
     justify-content: start;
 }
 
-.col2-title {
+.col2-title,
+.contact-col1-title,
+.cv-col1-title,
+.cv-col3-title,
+.cv-col5-title,
+.cv-col7-title,
+.cv-col9-title {
     z-index: 1;
     font-weight: 100;
     font-size: 50px;
@@ -166,7 +178,6 @@
 .col3-container {
     width: 25%;
     min-width: 315px;
-    background-color: transparent;
 }
 
 
@@ -300,6 +311,102 @@
 
 .post-title:hover {
     color: rgb(240, 255, 0);
+}
+
+.contact-container {
+    margin: 100px auto;
+    width: 400px;
+    line-height: 1.5em;
+}
+
+.contact-form-input {
+    padding: 6px 12px;
+    width: 372px;
+    outline: 0;
+    border: none;
+    background-color: #e0e0e0;
+}
+
+.contact-form-textarea {
+    padding: 6px 12px;
+    width: 372px;
+    resize: none;
+    outline: 0;
+    border: none;
+    background-color: #e0e0e0;
+}
+
+.contact-form-button {
+    width: 398px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(240, 255, 0);
+    outline: 0;
+    border: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.contact-form-button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.cv-col2,
+.cv-col4,
+.cv-col6,
+.cv-col8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.cv-col2-container,
+.cv-col4-container,
+.cv-col6-container,
+.cv-col8-container {
+    width: 25%;
+    min-width: 315px;
+}
+
+.cv-col2-content {
+    margin: 50px 0;
+    line-height: 1.5em;
+}
+
+.cv-col2-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 255, 0);
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.cv-col2-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.skill-bg {
+    padding: 4px;
+    background-color: rgb(224, 224, 224);
+}
+
+.job,
+.education {
+    line-height: 1.5em;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 ul {
